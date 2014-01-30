@@ -40,19 +40,3 @@ class TreeNode
     end
   end
 end
-
-## TESTING
-#root = TreeNode.new("root node")
-#
-#5.times do |i|
-#  root.add_child(TreeNode.new("child #{i}"))
-#  5.times do |j|
-#    root.children[i].add_child(TreeNode.new("child #{i}:#{j}"))
-#  end
-#end
-#
-#search = root.dfs("child 1:3")
-#puts search.value
-#
-#search = root.bfs("child 1:3")
-#puts search.value
